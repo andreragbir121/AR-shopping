@@ -36,8 +36,6 @@ DISCLAIMER: IF USER IS MANUALLY PLACED IN THE DATABASE IT MUST BE HASHED, HENCE 
 
 
 Only admin gets to upload to the site:
-Admin current credentials: 
-username: John123
-Password: NotPassword1!
+
 
 
