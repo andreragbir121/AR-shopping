@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800;900&display=swap');
+
+
+/*Navigation */
+
+*{
+    font-family: 'Poppins', sans-serif;
+    color: purple;
+}
+  /* <p>CSS Horizontal Navigation Bar: <a href="https://www.w3schools.com/css/css_navbar_horizontal.asp#gsc.tab=0&gsc.q=increase%20size%20of%20input%20box%20css"></a></p> */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid var(--text-color);
+    background-color: whitesmoke;
+  }
+  .navbar-logo{
+    height: 60px ;
+    width: auto;
+    padding-left: 20px;
+    background-color: whitesmoke;
+}
+
+.Navigation {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: whitesmoke;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+.nav-links {
+    margin-left: 25px;
+}
+.nav-links:hover {
+    color: #1E90FF
+}
+.nav-option{
+    padding-top: 25px;
+}
+
+.Login-nav {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+    font-weight: bold;
+    background-color: whitesmoke;
+
+}
+
+.login-btn,
+.signup-btn {
+    background: var(--text-color);
+    color: #1E90FF;
+    font-weight: 550;
+    width: 75px;
+    height: 40px;
+    border-radius: 10px;
+    border: 3px solid black;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+
+/* prod list */
+.products-container{
+  display: inline-flex;
+  margin: 20px;
+}
+.product {
+    border: 5px solid black;
+    margin: 40px auto;
+    position: relative;
+    min-height: 500px;
+    width: 320px; 
+    box-sizing: border-box;
+}
+
+.product-info {
+    font-size: 20px;
+    font-weight: 650;
+    margin: 10px 15px;
+    color: black;
+}
+.product-image {
+  width: 300px;     
+  height: auto;      
+  border-radius: 8px;
+}
+
+.product-info span{
+    font-weight: bold;
+    color: purple;
+}
+
+.view-product{
+    border: 3px solid black;    
+    border-radius: 10px;
+    margin: 20px 180px;
+    color:  #1E90FF;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: purple;
+    text-decoration: none;
+    padding: 5px 15px;
+    }
+    
+.view-product:hover{
+    color: purple;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:#1E90FF;
+}
+
+
+.add-to-cart i{
+    color:  #1E90FF;;
+    font-size: 20px;
+}
+
+
+/* product detail */
+.prod-details-container {
+  display: flex;
+  padding: 20px;
+}
+.prod-item,
+.prod-detail {
+  font-weight: bold;
+  color: black;
+  font-size: larger;
+  margin: 6px 20px;
+
+}
+.prod-item span
+.prod-detail span {
+  font-weight: bold;
+  color: purple;
+  font-size: larger;
+
+}
+.description span {
+  font-weight: 500;
+}
+.prod-detail i {
+font-size: 70px;
+color: #1E90FF;
+}
+
+/* cart */
+.prod-details-cart{
+border: 3px solid black;
+margin: 10px;
+display: flex;
+justify-content: space-between;
+align-content: normal;
+}
+
+.delete-icon{
+font-size: 30px;
+margin-left:  30px;
+}
+
+
+.checkout-btn {
+    text-align: center;
+    margin: 20px 0;
+}
+.btn-checkout i,
+.btn-checkout {
+    display: inline-block;
+    background-color: purple;
+    color:  #1E90FF;;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+/* register */
+  .reg-form,
+  .login-form {
+  width: 90%;
+  max-width: 360px;
+  margin: 50px auto;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+
+.reg-logo{
+    width: 400px;
+    height: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+  
+  .form-heading {
+    text-align: center;
+    padding-top: 15px;
+    font-size:50px;
+  }
+
+    .account-input,
+    .login-info {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight:bold;
+  } 
+
+  .account-selection{
+    width: 107%;
+  }
+
+  .terms-and-conditions a {
+    color: red;
+  }
+  .submit-btn{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #1E90FF;;
+    background-color: purple;
+    border:1px solid black;
+    border-radius: 30px;
+    align-items: center;
+}
+  .submit-btn:hover{
+    background-color:#1E90FF;;
+    color: purple;
+    transition: 0.4s;
+    cursor:pointer;
+  }
+
+  .existing-account{
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .existing-account a {
+    color: purple;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .existing-account a:hover{
+    color: #1E90FF;;
+  }
+
+
+
+  /* login */
+  .login-form {
+  width: 90%;
+  max-width: 360px;
+  margin: 50px auto;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+
+
+.reg-logo{
+    height: 180px;
+    width: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+  
+  .form-heading {
+    text-align: center;
+    padding-top: 15px;
+    font-size:50px;
+  }
+
+
+.reg-instruction,
+.Upload-instruction 
+  {
+    text-align: center;
+  }
+
+  .account-input {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight:bold;
+  } 
+
+  .account-selection{
+    width: 107%;
+  }
+
+  .terms-and-conditions a {
+    color: red;
+  }
+  .submit-btn{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #1E90FF;;
+    background-color: purple;
+    border:1px solid black;
+    border-radius: 30px;
+    align-items: center;
+}
+  .submit-btn:hover{
+    background-color:#1E90FF;;
+    color: purple;
+    transition: 0.4s;
+    cursor:pointer;
+  }
+
+  .register{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+    }
+
+    .register a{
+        font-weight: bold;
+        text-decoration: none;
+        color: #1E90FF;;
+
+    }
+
+    .register a:hover{
+        font-weight: bold;
+        color: purple;
+    }
+
+    /* responsive queries */
+    @media (max-width: 800px) {
+  .prod-details-container {
+    flex-direction: column;
+  }
+
+  .prod-item,
+  .prod-detail {
+    margin: 10px 0;
+  }
+
+  .prod-detail i {
+    font-size: 60px;
+  }
+
+     .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .Navigation {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-links {
+    margin: 10px 0;
+  }
+
+  .Login-nav {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .login-btn,
+  .signup-btn {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+    /* additional styling */
+.invalid{
+  font-size: xx-large;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+  text-align: center;
+}
